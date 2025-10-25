@@ -1,0 +1,57 @@
+Quick y Shell sort
+
+Ambos son algoritmos basados en la tecnica de divide y venceras, aunque principalmente el quick sort, este consiste en 
+la division de la tabla segun un pivote, dato, escogido y dependiendo de la funcion que tengamos colocara datos tanto a la izquerda como a la derecha,
+y este proceso se repite hastq ue la tabla completa que quede completamente "ordenada". El shell sort es un proceso algoritmico el cual es basa en
+saltos, esots con el fin de poder compararlos con otros elemntos del alista y moverlos a su posicion correcta, y asu vez tambie se repite el proceso 
+de saltos hasta que la lista quede ordenada
+
+Investigacion 
+| Característica       | **Quick Sort**             | **Shell Sort**                   |
+| -------------------- | -------------------------- | -------------------------------- |
+| Tipo de algoritmo    | Divide y vencerás          | Inserción mejorada               |
+| Estabilidad          | No estable                 | No estable                       |
+| Complejidad promedio | O(n log n)                 | O(n^(3/2)) aprox                 |
+| Memoria adicional    | Muy poca (in-place)        | Muy poca (in-place)              |
+| Ideal para           | Grandes volúmenes de datos | Listas medianas o casi ordenadas |
+| Recursivo            | Sí                         | No necesariamente                |
+
+El Quick Sort se usa muchísimo en la práctica, especialmente en lenguajes de programación y librerías modernas (como C, Java, Python, etc.), porque combina eficiencia y flexibilidad.
+🔸 En grandes volúmenes de datos:
+Quick Sort se adapta bien porque:
+Es rápido en promedio (O(n log n)),
+Puede trabajar directamente sobre los datos en memoria sin necesitar estructuras extra (ordenamiento in-place),
+Y se puede modificar fácilmente para funcionar de forma más estable o paralela.
+🔸 En sistemas grandes o gestores de datos:
+
+En bases de datos o sistemas de procesamiento, el Quick Sort se suele usar para:
+Ordenar resultados de consultas, por ejemplo al usar ORDER BY en SQL.
+Preparar datos para índices, que ayudan a buscar información más rápido.
+Procesos de análisis donde se necesita ordenar antes de agrupar o combinar datos.
+Sin embargo, en sistemas con datos muy grandes que no caben en memoria RAM, se usa una versión especial llamada "External Quick Sort", que divide los datos en partes, los ordena por separado y 
+luego los combina (un proceso parecido al merge sort externo).
+En la práctica, muchos motores de bases de datos usan una combinación de Quick Sort y Merge Sort, dependiendo del tamaño y la ubicación de los datos (en memoria o en disco).
+
+
+El Shell Sort también es un algoritmo rápido, pero no tan eficiente como Quick Sort cuando los volúmenes de datos son muy grandes.
+Se utiliza más en situaciones donde:
+
+Los datos son medianos o pequeños,
+Oestán casi ordenados,
+O cuando se busca un algoritmo simple y sin mucha carga de memoria.
+🔸 En grandes sistemas:
+Shell Sort se puede usar internamente en algunos programas o dispositivos donde:
+No se dispone de mucha memoria adicional,
+O se necesita ordenar parcialmente listas que cambian constantemente (como en sistemas embebidos o componentes del sistema operativo).
+Sin embargo, en gestores de bases de datos grandes, no es el más común, porque su rendimiento no es tan bueno como el de otros métodos modernos (Quick Sort, Merge Sort o Heap Sort).
+
+En grandes gestores de bases de datos (como MySQL, PostgreSQL, Oracle, etc.)
+
+En los grandes gestores de bases de datos, el ordenamiento es una operación fundamental, pero no se usa un solo algoritmo fijo.
+Se selecciona el más adecuado según la situación, por ejemplo:
+| Situación                                              | Algoritmo más usado               |
+| ------------------------------------------------------ | --------------------------------- |
+| Datos pequeños en memoria                              | Quick Sort o Heap Sort            |
+| Datos muy grandes (en disco)                           | Merge Sort externo                |
+| Datos parcialmente ordenados                           | Insertion o Shell Sort            |
+| Ordenamiento paralelo (en varios núcleos o servidores) | Quick Sort o Merge Sort paralelos |
