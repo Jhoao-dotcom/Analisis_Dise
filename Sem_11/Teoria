@@ -16,6 +16,7 @@ Investigacion
 | Ideal para           | Grandes volúmenes de datos | Listas medianas o casi ordenadas |
 | Recursivo            | Sí                         | No necesariamente                |
 
+
 El Quick Sort se usa muchísimo en la práctica, especialmente en lenguajes de programación y librerías modernas (como C, Java, Python, etc.), porque combina eficiencia y flexibilidad.
 🔸 En grandes volúmenes de datos:
 Quick Sort se adapta bien porque:
