@@ -1,0 +1,16 @@
+Busqueda binaria
+Cuando tienes una lista de números ordenada y necesitas encontrar un número específico, en lugar de buscarlo uno por uno, la búsqueda binaria aprovecha el hecho de que la 
+lista está ordenada para dividirla en dos partes, descartando una de ellas en cada iteración. El proceso es el siguiente:
+Primer paso: Comienzas con el primer y el último elemento de la lista. Luego, calculas el índice medio de la lista.
+Segundo paso: Compara el número que estás buscando con el valor en el índice medio.
+    Si el número que buscas es igual al valor en el medio, se encuentra
+    Si el número que buscas es menor que el valor del medio, significa que debe estar en la mitad izquierda de la lista. Entonces, eliminas la mitad derecha.
+    Si el número que buscas es mayor que el valor del medio, esto indica que está en la mitad derecha de la lista. Por lo tanto, descartas la mitad izquierda.
+    Tercer paso: Repites este proceso con la mitad de la lista que corresponde, hasta encontrar el número o quedarte sin elementos en la lista.
+
+Busqueda lineal
+Imagina que tienes una lista desordenada de números y necesitas encontrar uno específico. Con la búsqueda lineal, simplemente sigues estos pasos:
+    Comienza en el primer elemento de la lista.
+    Compara el elemento actual con el valor que buscas.
+    Si no coincide, avanzas al siguiente elemento de la lista.
+    Repites este proceso hasta que encuentres el valor o llegues al final de la lista.
