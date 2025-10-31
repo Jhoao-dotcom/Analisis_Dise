@@ -11,7 +11,6 @@ import java.util.Scanner;
  */
 
     /**
-     */
 
 public class BusquedaBinaria {
     public static void main(String[] args) {
@@ -55,3 +54,4 @@ public class BusquedaBinaria {
     }
 }
     
+
