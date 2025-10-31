@@ -10,8 +10,6 @@ import java.util.Scanner;
  * @author LAB-USR-AREQUIPA
  */
 
-    /**
-
 public class BusquedaBinaria {
     public static void main(String[] args) {
         // Arreglo ordenado (requisito para búsqueda binaria)
@@ -54,4 +52,5 @@ public class BusquedaBinaria {
     }
 }
     
+
 
