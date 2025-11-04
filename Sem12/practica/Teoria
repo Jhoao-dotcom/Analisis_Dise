@@ -14,3 +14,4 @@ Imagina que tienes una lista desordenada de números y necesitas encontrar uno e
     Compara el elemento actual con el valor que buscas.
     Si no coincide, avanzas al siguiente elemento de la lista.
     Repites este proceso hasta que encuentres el valor o llegues al final de la lista.
+
