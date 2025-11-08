@@ -1,0 +1,14 @@
+RECURSION
+La recursión es cuando una función se llama a sí misma para resolver un problema más pequeño del mismo tipo.
+Características:
+  Divide el problema en subproblemas.
+  Necesita una condición base para detenerse.
+  Es elegante y fácil de entender en problemas que tienen estructura repetitiva natural (árboles, factorial, Fibonacci, búsqueda binaria, etc.)
+  Puede consumir más memoria (usa la pila de llamadas)
+
+ITERACION 
+La iteración usa estructuras repetitivas como for o while para repetir pasos sin llamarse a sí misma.
+Características:
+  Generalmente es más eficiente en memoria.
+  Tiende a ser un poco más larga de escribir en problemas complejos.
+  No usa pila de llamadas.
