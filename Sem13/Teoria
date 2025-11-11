@@ -11,4 +11,4 @@ La iteración usa estructuras repetitivas como for o while para repetir pasos si
 Características:
   Generalmente es más eficiente en memoria.
   Tiende a ser un poco más larga de escribir en problemas complejos.
-  No usa pila de llamadas.
+  No usa pila de llamadas, por lo que es mas eficiente en espacios 
