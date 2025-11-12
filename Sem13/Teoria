@@ -6,7 +6,6 @@ Características:
   Es elegante y fácil de entender en problemas que tienen estructura repetitiva natural (árboles, factorial, Fibonacci, búsqueda binaria, etc.)
   Puede consumir más memoria (usa la pila de llamadas)
 
-
 ITERACION 
 La iteración usa estructuras repetitivas como for o while para repetir pasos sin llamarse a sí misma.
 Características:
