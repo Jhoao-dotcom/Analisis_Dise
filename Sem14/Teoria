@@ -1,0 +1,12 @@
+## Recursividad 
+La recursividad es una técnica de programación donde una función se llama a sí misma para resolver un problema,
+es eficiente en problemas que se puedan subdividir 
+
+## Backtracking 
+Lo que hace es explorar todas las posibles soluciones construyendo una solución parcial y expandiéndola
+paso a paso. Si se determina que una solución parcial no puede llevar a una solución completa válida, el algoritmo "retrocede" y
+prueba una opción diferente.
+
+## Seleccion optima 
+Se refiere a elegir el mejor elemento, conjunto o decisión entre muchas posibilidades, de acuerdo con algún criterio de 
+optimalidad (por ejemplo: mínimo costo, máximo beneficio, menor tiempo, mayor ganancia, etc.).
